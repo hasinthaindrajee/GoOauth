@@ -1,0 +1,10 @@
+[idp]
+host = "https://localhost:9443"
+tokenEndpoint = "/oauth2/token"
+authorizeEndpoint = "/oauth2/authorize"
+clientId = "cM3lw_Q27xfWYzdhP2EF85il6DQa"
+clientSecret = "oOLgNMRk0Laf1TtDtdMKaCcvSCwa"
+
+[serviceProvider]
+callback = "http://localhost:8080/auth"
+scopes = ["openid","test"]
